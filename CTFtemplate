@@ -1,0 +1,37 @@
+# [CTF Room Name] – TryHackMe Write-Up
+
+**Author:** Your Name  
+**Platform:** TryHackMe  
+**Difficulty:** [Easy / Medium / Hard]  
+**Date Completed:** [MM/DD/YYYY]  
+**Room Link:** [Insert TryHackMe room URL]
+
+---
+
+## Overview
+
+Brief description of the CTF room and what you learned.
+
+> Example:  
+This room teaches the basics of Capture the Flag challenges, covering enumeration, password cracking, and basic web exploitation.
+
+---
+
+## Tools Used
+
+- Nmap
+- Gobuster / Dirb
+- Hydra
+- Burp Suite
+- netcat
+- [any others you used]
+
+---
+
+## Walkthrough
+
+### 1. Reconnaissance
+
+**Nmap scan:**
+```bash
+nmap -sV -sC -T4 -Pn [IP address]
